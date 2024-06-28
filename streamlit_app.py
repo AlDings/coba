@@ -28,6 +28,7 @@ def main() :
   
   st.table([x for x in range(1,5)])
 if __name__ == '__main__' :
+  main()
 
 def main() : 
     click_me_btn = st.button('Click Me')
@@ -48,6 +49,7 @@ def main() :
     num_input = st.number_input('Input Berapapun')
     st.write('Kuadrat dari {} adalah {}'.format(num_input,num_input**2))
 if __name__ == '__main__' :
+  main()
 
 def main() : 
     #sidebar 
